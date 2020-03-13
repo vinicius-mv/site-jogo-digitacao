@@ -1,0 +1,131 @@
+body {
+    background:#EEEEEE;
+}
+
+section {
+    clear: both;
+}
+.frase {
+    margin: 2rem 0;
+    font-size: 20px;
+    text-align: justify;
+    user-select: none;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.campo-digitacao {
+    margin: 2rem 0;
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid black;
+    resize: none;
+}
+
+.campo-desativado {
+    background-color: lightgray;
+}
+
+.borda-verde {
+    border-color: green;
+}
+
+.borda-vermelha {
+    border-color: red;
+}
+
+.placar {
+    display: none;
+}
+
+body {
+    overflow: scroll;
+}
+
+#erro {
+    margin: 2rem 0;
+    color: red;
+    display: none;
+}
+
+#erro-texto-invalido {  
+    font-size: larger;
+    color: red;
+    text-align: center;
+}
+
+.invisivel {
+    display: none;
+}
+
+#input-frase-id {
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid cyan;
+}
+
+.informacoes {
+    display: block;
+    width: 15%;
+    vertical-align: middle;
+    margin: 2rem auto;
+}
+
+.informacoes li {
+    display: block;
+    text-align: left;
+}
+
+.tooltip { 
+    float: right; 
+}
+
+#botao-sync {
+    float: right;
+}
+
+.resultado-parcial {
+    clear: both;
+    display: block;
+    width: 60%;
+    margin: 0 15%;
+}
+
+.parcial ul {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.parcial li {
+    display: block;
+    padding: 1rem 0;
+    font-size: large;
+    color: blue;
+}
+
+
+.selectize-control {
+    display: inline-block;
+    width: auto;
+    min-width: 200px;
+    max-width: 240px;
+    height: auto;
+}
+
+.selectize-input {
+    padding: 8px 32px 8px 8px;
+    vertical-align: middle;
+}
+
+#usuarios {
+    display: inline-block;
+    width: 75%;
+}
+
+.btn-save {
+    display: inline;
+    margin: 0 0 0 10;
+}
+
